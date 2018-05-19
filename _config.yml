@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://username.github.io"
+url: "http://sarahtune.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -24,11 +24,12 @@ description: A virtual proof that name is awesome!
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+  Research: "research"
+  Resources: "resources"
+  Blog:
+    - What I learned this week: "knowledge"
+    - What I thought about this week : "http://www.markdowntutorial.com/"
+  Author's home: "http://sarahtune.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -79,22 +80,14 @@ social-network-links:
 #  google-plus: +DeanAttali
 #  linkedin: daattali
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
+
 
 # Select which share links to show in posts
 share-links-active:
   twitter: true
   facebook: true
   google: false
-  linkedin: true
+  
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
