@@ -21,8 +21,13 @@ p {
   line-height: 1.5;
   margin: 30px 0;
 }
-h1,h2,h3,h4,h5,h6 {
+h2,h3,h4,h5,h6 {
   font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
+h1 {
+  font-family: 'Vollkorn', serif;
   font-weight: 800;
 }
 a {
@@ -57,7 +62,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Vollkorn', 'Roboto', sans-serif;
+  font-family:  'Roboto', sans-serif;
   padding: 15px inherit;
 }
 
@@ -108,7 +113,7 @@ img {
 .navbar-custom {
   background-color: {{ site.navbar-col }};
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Vollkorn', serif;
   {% if site.navbar-img %}
   background-image: url({{ site.navbar-img }});
   background-attachment: fixed;
