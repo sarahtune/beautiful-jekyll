@@ -21,15 +21,16 @@ p {
   line-height: 1.5;
   margin: 30px 0;
 }
-h2,h3,h4,h5,h6 {
+  h1,h2 {
+  font-family: 'Vollkorn', serif;
+  font-weight: 500;
+}
+h3,h4,h5,h6 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 800;
+  font-weight: 500;
 }
 
-h1 {
-  font-family: 'Vollkorn', serif;
-  font-weight: 800;
-}
+
 a {
   color: {{ site.link-col }};
 }
@@ -475,15 +476,15 @@ footer .theme-by {
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 40px;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
-  font-size: 35px;
+  font-size: 25px;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 27px;
+  font-size: 20px;
   line-height: 1.1;
   display: block;
   font-family: 'Vollkorn',  sans-serif;
